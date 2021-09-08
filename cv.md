@@ -21,7 +21,22 @@ quick learning.
  - JavaScript (Basic)
 
 ## Code example:
-```
+```function insert (arr){
+
+    for ( let i = 0; i < arr.length; i ++ ){
+        for ( let j = 0; j < arr.length; j ++) {
+            for (let k = j + 1; k < arr.length; k ++) {
+                if ( arr[i][j] > arr[i][k]) {
+                    const temp = arr[i][k];
+                    arr [i][k] = arr[i][j];
+                    arr [i][j] = temp;
+
+                }
+            }
+        }
+    }
+ return arr;
+}
 ```
 
 
