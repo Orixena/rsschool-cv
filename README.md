@@ -1,1 +1,1 @@
-https://orixena.github.io/rsschool-cv/cv
+https://orixena.github.io/rsschool-cv/
